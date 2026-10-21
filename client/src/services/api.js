@@ -4,7 +4,7 @@ import axios from "axios";
 // The weather API key stays safely on the backend.
 
 const api = axios.create({
-        baseURL: "http://localhost:5001/api",
+        baseURL: "/api",
 });
 
 // Attach JWT token to every protected request.
